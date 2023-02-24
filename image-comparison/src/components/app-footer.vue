@@ -1,6 +1,6 @@
 <template>
-    <v-footer class="text-caption text-uppercase flex-grow-0" color="#3C5556">
-        <div style="color: white">
+    <v-footer class="text-caption text-uppercase flex-grow-0" :elevation="2">
+        <div style="color: #6b6060">
             &copy; {{ getDate }} Team Data - UI v{{ appVersion }}
         </div>
     </v-footer>
