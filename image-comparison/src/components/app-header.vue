@@ -23,7 +23,7 @@
 
             <!-- Route to Image Processing Page -->
             <v-btn variant="text" color="white">
-                <router-link to="/" class="headline text-decoration-none text-white text-capitalize">Process Image</router-link>
+                <router-link to="/image-processing" class="headline text-decoration-none text-white text-capitalize">Process Image</router-link>
             </v-btn>  
 
             <!-- Route to About Page -->
@@ -42,5 +42,5 @@ export default {
 </script>
 
 <script setup>
-import routes from "@/router";
+
 </script>
