@@ -12,7 +12,7 @@
                     <div>
                         <img
                             height="350"
-                            src="./images/goodExample.jpg"
+                            src="../images/goodExample.jpg"
                             style="border-style: solid;
                                     border-width: 2px;
                                     border-color: #2A93D5;"/>
@@ -22,7 +22,7 @@
                     <div>
                         <img
                             height="350"
-                            src="./images/badExample.jpg"
+                            src="../images/badExample.jpg"
                             style="border-style: solid;
                                     border-width: 2px;
                                     border-color: #2A93D5;"/>
