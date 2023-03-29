@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
-import ImageProcessingView from '../'
+import ImageProcessingView from '../views/ImageProcessingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,9 +17,9 @@ const router = createRouter({
       component: AboutView
     },
     {
-      path: '/image-processing',
-      name: 'image-processing',
-      compenent: ImageProcessingView
+      path: '/imageprocessing',
+      name: 'imageprocessing',
+      component: ImageProcessingView
     }
   ]
 })

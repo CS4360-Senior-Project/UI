@@ -10,24 +10,27 @@
                     </h1>
 
                     <v-row justify="center">
-                        <v-col cols="4">
-                            <div style="height:200px;
-                                        border-style: solid;
+                        <div>
+                            <img
+                                height="350"
+                                src="./images/goodExample.jpg"
+                                style="border-style: solid;
                                         border-width: 2px;
-                                        border-color: #2A93D5;
-                                        background-color: white"></div>
+                                        border-color: #2A93D5;"/>
                             <h3 style="text-align: center; color: #2A93D5">Good Example</h3>
-                        </v-col>
-                        <v-col cols="4">
-                            <div style="height:200px;
-                                        border-style: solid;
+                        </div>
+                        <div style="margin: 10px"></div>
+                        <div>
+                            <img
+                                height="350"
+                                src="./images/goodExample.jpg"
+                                style="border-style: solid;
                                         border-width: 2px;
-                                        border-color: #2A93D5;
-                                        background-color: white"></div>
+                                        border-color: #2A93D5;"/>
                             <h3 style="text-align: center; color: #2A93D5">Bad Example</h3>
-                        </v-col>
+                        </div>
                     </v-row>
-                    <v-row justify="center" style="color: #125488">
+                    <v-row justify="center" style="margin-top: 20px; color: #125488">
                         <h2> Ensure image is clear and in jpg format</h2>
                     </v-row>
                 </v-container>

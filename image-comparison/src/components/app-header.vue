@@ -23,7 +23,7 @@
 
             <!-- Route to Image Processing Page -->
             <v-btn variant="text" color="white">
-                <router-link to="/image-processing" class="headline text-decoration-none text-white text-capitalize">Process Image</router-link>
+                <router-link to="/imageprocessing" class="headline text-decoration-none text-white text-capitalize">Process Image</router-link>
             </v-btn>  
 
             <!-- Route to About Page -->
@@ -39,8 +39,4 @@
 export default {
     name: 'AppHeader'
 }
-</script>
-
-<script setup>
-
 </script>
