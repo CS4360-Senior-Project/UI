@@ -32,3 +32,5 @@ MongoDB database:
 mongodb+srv://<username>:<password>@cluster0.qrwxt6u.mongodb.net/?retryWrites=true&w=majority
 ```
 
+Project Resources:
+- https://www.bezkoder.com/vue-multiple-files-upload/

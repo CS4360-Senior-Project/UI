@@ -1,19 +1,12 @@
 <template>
-  <v-container fluid style="margin-top: 300px; margin-left: 750px" justify="center">
-    <v-row justify="center">
-      <v-col cols="12">
-        <h1 style="white">This is an about page</h1>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-parallax
+    src="https://imgc.artprintimages.com/img/print/misty-mountains-x_u-l-q1bp2e30.jpg?artHeight=350&artPerspective=n&artWidth=550&background=fbfbfb"
+    height="400"
+  >
+    <div class="d-flex flex-column fill-height justify-center align-center text-white">
+      <h1 class="text-h4 font-weight-bold mb-4"><u>ABOUT</u></h1>
+    </div>
+  </v-parallax>
+  <v-container></v-container>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
