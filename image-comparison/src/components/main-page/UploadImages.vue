@@ -54,7 +54,7 @@
         </v-row>
   
         <!------------------------ UPLOAD IMAGES -------------------------->
-        <div v-if="isLoadable" class="progressInfo" style="margin-bottom: 10px">
+        <!-- <div v-if="isLoadable" class="progressInfo" style="margin-bottom: 10px">
             <div class="mb-2"
                 v-for="(progressInfo, index) in progressInfo"
                 :key="index">
@@ -69,7 +69,7 @@
                     >{{ progressInfo.percentage }}%</div>
                 </div>
             </div>
-        </div>
+        </div> -->
     
         <v-row justify="center">
             <v-col cols="6">
@@ -158,7 +158,29 @@ export default {
                 console.log("SELECTED: ", this.selectedFiles[i])
                 this.upload(i, this.selectedFiles[i]);
             }
+
+            // const formData = new FormData();
+            // formData.append(this.selectedFiles[0]);
+            // formData.append(this.selectedFiles[1]);
+
+            // console.log("FILES: ", formData)
+
+            // this.upload(formData);
         },
+
+
+        // upload(file) {
+        //     UploadService.upload(file)
+        //     .then((response) => {
+        //         let prevMessage = this.message ? this.message + "\n" : "";
+        //         this.message = prevMessage + response.data.message;
+        //         console.log(response.data.status);
+        //     })
+        //     .catch(error => {
+        //         this.message = "Could not upload the files";
+        //         console.log(error);
+        //     });
+        // }
 
         upload(id, file) {
             this.progressInfo[id] = { percentage: 0, fileName: file.name };

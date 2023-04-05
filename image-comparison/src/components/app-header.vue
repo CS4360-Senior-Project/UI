@@ -22,9 +22,9 @@
             </v-btn>
 
             <!-- Route to Image Processing Page -->
-            <v-btn variant="text" color="white">
+            <!-- <v-btn variant="text" color="white">
                 <router-link to="/imageprocessing" class="headline text-decoration-none text-white text-capitalize">Process Image</router-link>
-            </v-btn>  
+            </v-btn>   -->
 
             <!-- Route to About Page -->
             <v-btn variant="text" color="white">
