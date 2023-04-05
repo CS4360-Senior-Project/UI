@@ -54,6 +54,12 @@
         </v-row>
   
         <!------------------------ UPLOAD IMAGES -------------------------->
+        <v-progress-linear 
+            v-if="loading"
+            indeterminate 
+            style="margin-top: 10px;
+            margin-bottom: 10px"
+            color="blue"></v-progress-linear>
         <!-- <div v-if="isLoadable" class="progressInfo" style="margin-bottom: 10px">
             <div class="mb-2"
                 v-for="(progressInfo, index) in progressInfo"
@@ -104,6 +110,7 @@ export default {
 
             selectedFiles: undefined,
 
+            loading: false, // LOAD BAR
             progressInfo: [],
             fileInfo: [],
             message: "",
@@ -184,12 +191,13 @@ export default {
 
         upload(id, file) {
             this.progressInfo[id] = { percentage: 0, fileName: file.name };
-            
+            this.loading = true
             UploadService.upload(file, (event) => {
                 this.progressInfo[id].percentage = Math.round(100 * event.loaded / event.total);
             })
             .then((response) => {
-                this.message = 'The percent similarity between the two images is: ' + response.data.status;
+                this.loading = false
+                this.message = 'The percent similarity between the two images is: ' + response.data.status + "%";
                 console.log(response.data.status);
             })
             .catch(error => {
