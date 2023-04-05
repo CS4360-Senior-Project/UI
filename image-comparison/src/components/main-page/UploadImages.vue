@@ -189,8 +189,7 @@ export default {
                 this.progressInfo[id].percentage = Math.round(100 * event.loaded / event.total);
             })
             .then((response) => {
-                let prevMessage = this.message ? this.message + "\n" : "";
-                this.message = prevMessage + response.data.message;
+                this.message = 'The percent similarity between the two images is: ' + response.data.status;
                 console.log(response.data.status);
             })
             .catch(error => {
