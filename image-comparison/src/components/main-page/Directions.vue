@@ -30,7 +30,7 @@
                     </div>
                 </v-row>
                 <v-row justify="center" style="margin-top: 20px; color: #125488">
-                    <h2> Ensure image is clear and in png format</h2>
+                    <h2> Ensure image is clear and in png or jpg format</h2>
                 </v-row>
             </v-container>
         </v-row>

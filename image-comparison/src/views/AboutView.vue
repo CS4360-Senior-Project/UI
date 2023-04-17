@@ -1,6 +1,6 @@
 <template>
   <v-parallax
-    src="https://www.farmtruckphotographyanddesign.com/uploads/1/4/2/8/14280842/s159229868158895232_p12_i5_w2560.jpeg"
+    src="https://media.istockphoto.com/id/1178574687/photo/blue-sky-and-white-clouds.jpg?b=1&s=170667a&w=0&k=20&c=x3EVXJPayOgpvHGzByn68he9rMcLI1hDESm_ZmgouTU="
     height="400"
   >
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
@@ -28,13 +28,10 @@
       and studies on how useful automation is when processing and analyzing data. They can gain access to evidence more quickly and aid in the discovery of
       more pertinent discoveries by making connections that may serve to clarify emphasis and direction. </p>
 
-    <p style="color: #36454F"> Additionally, this tool provides fast pattern recognition to reduce the time and uncertainty it takes to compare handwriting samples. Our project
-      has real world applications for fraud detection and forensic analysis and can provide an extra piece of evidence in a court of law. Currently, the only
-      similar tools use image processing to extract handwriting and translate it to text online (ex. Taking a picture of a handwritten essay to convert to a word document).
-      Everyone can remember a time when they signed an important document (checks, mortgages, contracts, etc.). Forging or having one’s signature forged can lead to large
-      financial and criminal issues. Humans have long analyzed handwriting using their vision to try to prevent forgeries. Recent advancements in image recognition using deep
-      learning have led to higher breast cancer detection rates than when doctors used their vision alone. The same image processing techniques can lead to fast and accurate
-      analysis of signatures to aid in fraud detection and prevention, and ceramal prosecutions. </p>
+    <p style="color: #36454F"> Additionally, this tool provides fast pattern recognition to reduce the time and uncertainty it takes to compare handwriting
+      samples. Our project has real world applications for fraud detection and forensic analysis and can provide an extra piece of evidence in a court of law.
+      Forging or having one’s signature forged can lead to large financial and criminal issues. Humans have long analyzed handwriting using their vision to try
+      to prevent forgeries. Recent advancements in image recognition using deep learning techniques can lead to fast and accurate analysis of signatures to aid
+      in fraud detection and prevention, and aid in ceramal prosecutions.  </p>
   </v-container>
 </template>
-
