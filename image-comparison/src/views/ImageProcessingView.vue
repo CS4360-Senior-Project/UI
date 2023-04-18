@@ -1,9 +1,5 @@
 <template>
-    <main>
-        <ImageProcessing/>
-    </main>
+	<div>
+		Image Processing tab
+	</div>
 </template>
-
-<script setup>
-    import ImageProcessing from '../components/ImageProcessing.vue'
-</script>
